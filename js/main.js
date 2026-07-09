@@ -86,61 +86,19 @@
 	// 01. PreLoader Js
 
 	windowOn.on('load', function () {
-		var body = $('body');
-		body.addClass('loaded');
-		setTimeout(function () {
-			body.removeClass('loaded');
-		}, 1500);
+		$('body').removeClass('loaded');
 	});
 	
 	document.addEventListener("DOMContentLoaded", () => {
-		const svg = document.getElementById("svg");
-		if (!svg) return;
+		const loader = document.querySelector(".loader-wrap");
+		if (!loader) return;
 
-		const tls = gsap.timeline();
-		const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
-		const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
-
-		// Loader heading text
-		if (document.querySelector(".loader-wrap-heading")) {
-			tls.to(".loader-wrap-heading .load-text , .loader-wrap-heading .cont", {
-				delay: 0.5,
-				y: -100,
-				opacity: 0,
-			});
-		}
-
-		// SVG animation
-		tls.to(svg, {
-			duration: 0.5,
-			attr: { d: curve },
-			ease: "power2.in",
-		}).to(svg, {
-			duration: 0.5,
-			attr: { d: flat },
+		gsap.to(loader, {
+			autoAlpha: 0,
+			duration: 0.22,
 			ease: "power2.out",
+			onComplete: () => loader.remove()
 		});
-
-		// Loader wrap
-		if (document.querySelector(".loader-wrap")) {
-		tls.to(".loader-wrap", { y: -1500 })
-			.to(".loader-wrap", { zIndex: -1, display: "none" });
-		}
-
-		// Pre-header animation (safe check)
-		const preHeader = document.querySelector(".pre-header");
-		if (preHeader) {
-		tls.from(preHeader, { y: 200 }, "-=1.5");
-
-		const preHeaderCont = preHeader.querySelector(".containers");
-			if (preHeaderCont) {
-				tls.from(preHeaderCont, {
-					y: 40,
-					opacity: 0,
-					delay: 0.1,
-				}, "-=1.5");
-			}
-		}
 	});
 
 
@@ -266,7 +224,7 @@
 	////////////////////////////////////////////////////
 	// 08. Smooth Scroll Js
 	gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
-	if($('#smooth-wrapper').length && $('#smooth-content').length){
+	if ($('#smooth-wrapper').length && $('#smooth-content').length) {
 		ScrollSmoother.create({
 			smooth: 1.35,
 			effects: true,
@@ -285,7 +243,7 @@
                 event.preventDefault();
                 $('html, body').stop().animate({
                     scrollTop: target.offset().top - -60
-                }, 1500);
+                }, 550);
             }
         });
     }
@@ -1058,16 +1016,16 @@
 		t.forEach((t, a) => {
 			var e = "bottom",
 				r = 1,
-				o = 1.15,
-				i = 50,
-				s = 0.15,
+				o = 0.4,
+				i = 24,
+				s = 0.08,
 				d = "power2.out";
 			t.getAttribute("data-fade-offset") && (i = t.getAttribute("data-fade-offset")),
-				t.getAttribute("data-duration") && (o = t.getAttribute("data-duration")),
+				t.getAttribute("data-duration") && (o = Math.min(parseFloat(t.getAttribute("data-duration")), 0.45)),
 				t.getAttribute("data-fade-from") && (e = t.getAttribute("data-fade-from")),
 				t.getAttribute("data-on-scroll") && (r = t.getAttribute("data-on-scroll")),
-				t.getAttribute("data-delay") && (s = t.getAttribute("data-delay")),
-				t.getAttribute("data-ease") && (d = t.getAttribute("data-ease"));
+				t.getAttribute("data-delay") && (s = Math.min(parseFloat(t.getAttribute("data-delay")), 0.12)),
+				t.getAttribute("data-ease") && (d = t.getAttribute("data-ease") === "bounce" ? "power2.out" : t.getAttribute("data-ease"));
 			let g = { opacity: 0, ease: d, duration: o, delay: s };
 			"top" == e && (g.y = -i), "left" == e && (g.x = -i), "bottom" == e && (g.y = i), "right" == e && (g.x = i), 1 == r && (g.scrollTrigger = { trigger: t, start: "top 85%" }), gsap.from(t, g);
 		});
@@ -1127,12 +1085,12 @@
 	// 41. fade-class-active
 	if ($(".tp_fade_anim").length > 0) {
 		gsap.utils.toArray(".tp_fade_anim").forEach((item) => {
-			let tp_fade_offset = item.getAttribute("data-fade-offset") || 40,
-				tp_duration_value = item.getAttribute("data-duration") || 0.75,
+			let tp_fade_offset = item.getAttribute("data-fade-offset") || 24,
+				tp_duration_value = Math.min(parseFloat(item.getAttribute("data-duration") || 0.38), 0.45),
 				tp_fade_direction = item.getAttribute("data-fade-from") || "bottom",
 				tp_onscroll_value = item.getAttribute("data-on-scroll") || 1,
-				tp_delay_value = item.getAttribute("data-delay") || 0.15,
-				tp_ease_value = item.getAttribute("data-ease") || "power2.out",
+				tp_delay_value = Math.min(parseFloat(item.getAttribute("data-delay") || 0.08), 0.12),
+				tp_ease_value = item.getAttribute("data-ease") === "bounce" ? "power2.out" : (item.getAttribute("data-ease") || "power2.out"),
 				tp_anim_setting = {
 					opacity: 0,
 					ease: tp_ease_value,
@@ -2455,4 +2413,3 @@
 
 
 })(jQuery);
-
