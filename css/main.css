@@ -5321,6 +5321,13 @@ body.loaded {
   border-color: var(--tp-common-black);
   color: var(--tp-common-white);
 }
+.tp-offcanvas-social ul li a i {
+  font-size: 16px;
+  line-height: 38px;
+}
+.tp-offcanvas-social ul li a[aria-label] svg {
+  display: none;
+}
 .tp-offcanvas-social ul li a svg {
   -webkit-transform: translateY(-1px);
   -moz-transform: translateY(-1px);
@@ -13755,8 +13762,29 @@ body.tp-magic-cursor #magic-cursor {
 /*----------------------------------------*/
 /*  7.32 video css start
 /*----------------------------------------*/
+.tp-video-area {
+  background-image: url("../images/thumb_2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .tp-video-content {
   padding: 40px 40px 47px 40px;
+  min-height: 344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.tp-video-content h4 {
+  margin-bottom: 18px;
+}
+.tp-video-content .ns-process-desc {
+  margin-bottom: 32px;
+}
+.tp-video-content .tp-hero-bottom-border {
+  margin-bottom: 32px;
 }
 .tp-video-spacing {
   padding-top: 400px;
@@ -13782,7 +13810,8 @@ body.tp-magic-cursor #magic-cursor {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
+  pointer-events: none;
 }
 .tp-video-main .popup-video {
   background: var(--tp-theme-primary);
