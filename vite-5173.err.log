@@ -1,4 +1,4 @@
-[2m23:41:41[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/bootstrap.css.
+[2m17:37:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/bootstrap.css.
 Error: An error occurred while trying to read the map file at bootstrap.min.css.map
 Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\css\bootstrap.min.css.map'
     at Object.readFileSync (node:fs:441:20)
@@ -8,17 +8,7 @@ Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\
     at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
     at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
     at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-[2m23:41:42[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/main.css.
-Error: An error occurred while trying to read the map file at main.css.map
-Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\css\main.css.map'
-    at Object.readFileSync (node:fs:441:20)
-    at file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19109:13
-    at readFromFileMap (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18809:13)
-    at exports.fromMapFileComment (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18903:12)
-    at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
-    at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
-    at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-[2m23:41:42[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/bootstrap-bundle.js.
+[2m17:37:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/bootstrap-bundle.js.
 Error: An error occurred while trying to read the map file at bootstrap.bundle.min.js.map
 Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\js\bootstrap.bundle.min.js.map'
     at Object.readFileSync (node:fs:441:20)
@@ -28,7 +18,7 @@ Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\
     at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
     at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
     at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-[2m23:41:42[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/hover-effect.umd.js.
+[2m17:37:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/hover-effect.umd.js.
 Error: An error occurred while trying to read the map file at hover-effect.umd.js.map
 Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\js\hover-effect.umd.js.map'
     at Object.readFileSync (node:fs:441:20)
@@ -38,17 +28,7 @@ Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\
     at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
     at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
     at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-[2m23:41:42[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/effect-slicer.js.
-Error: An error occurred while trying to read the map file at effect-slicer.min.js.map
-Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\js\effect-slicer.min.js.map'
-    at Object.readFileSync (node:fs:441:20)
-    at file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19109:13
-    at readFromFileMap (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18809:13)
-    at exports.fromMapFileComment (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18903:12)
-    at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
-    at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
-    at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-[2m23:41:42[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/swiper-bundle.js.
+[2m17:37:13[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/swiper-bundle.js.
 Error: An error occurred while trying to read the map file at swiper-bundle.min.js.map
 Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\js\swiper-bundle.min.js.map'
     at Object.readFileSync (node:fs:441:20)
@@ -58,7 +38,17 @@ Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\
     at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
     at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
     at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-[2m23:49:52[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/main.css.
+[2m17:37:14[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/js/effect-slicer.js.
+Error: An error occurred while trying to read the map file at effect-slicer.min.js.map
+Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\js\effect-slicer.min.js.map'
+    at Object.readFileSync (node:fs:441:20)
+    at file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19109:13
+    at readFromFileMap (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18809:13)
+    at exports.fromMapFileComment (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18903:12)
+    at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
+    at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
+    at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
+[2m17:39:25[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/main.css.
 Error: An error occurred while trying to read the map file at main.css.map
 Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\css\main.css.map'
     at Object.readFileSync (node:fs:441:20)
@@ -68,37 +58,3 @@ Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\
     at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
     at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
     at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-    at async viteTransformMiddleware (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:24559:20)
-[2m23:52:01[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/main.css.
-Error: An error occurred while trying to read the map file at main.css.map
-Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\css\main.css.map'
-    at Object.readFileSync (node:fs:441:20)
-    at file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19109:13
-    at readFromFileMap (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18809:13)
-    at exports.fromMapFileComment (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18903:12)
-    at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
-    at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
-    at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-    at async viteTransformMiddleware (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:24559:20)
-[2m23:53:05[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/main.css.
-Error: An error occurred while trying to read the map file at main.css.map
-Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\css\main.css.map'
-    at Object.readFileSync (node:fs:441:20)
-    at file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19109:13
-    at readFromFileMap (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18809:13)
-    at exports.fromMapFileComment (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18903:12)
-    at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
-    at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
-    at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-    at async viteTransformMiddleware (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:24559:20)
-[2m00:05:30[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m Failed to load source map for C:/Users/Azer/Downloads/VS/home/css/main.css.
-Error: An error occurred while trying to read the map file at main.css.map
-Error: ENOENT: no such file or directory, open 'C:\Users\Azer\Downloads\VS\home\css\main.css.map'
-    at Object.readFileSync (node:fs:441:20)
-    at file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19109:13
-    at readFromFileMap (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18809:13)
-    at exports.fromMapFileComment (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18903:12)
-    at exports.fromMapFileSource (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:18914:22)
-    at extractSourcemapFromFile (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:19095:87)
-    at loadAndTransform (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:20064:22)
-    at async viteTransformMiddleware (file:///C:/Users/Azer/AppData/Local/npm-cache/_npx/9ed06546b0653f96/node_modules/vite/dist/node/chunks/node.js:24559:20)

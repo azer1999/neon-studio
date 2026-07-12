@@ -190,25 +190,25 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-body: 'Kanit', sans-serif;
-  --tp-ff-heading: 'Space Grotesk', sans-serif;
-  --tp-ff-p: 'Kanit', sans-serif;
+  --tp-ff-body: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --tp-ff-heading: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --tp-ff-p: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --tp-ff-teko: 'Teko', sans-serif;
   --tp-ff-funnel: 'Funnel Display', sans-serif;
   --tp-ff-sora: 'Sora', sans-serif;
   --tp-ff-dm: 'DM Sans', sans-serif;
-  --tp-ff-inter: 'Inter', sans-serif;
-  --tp-ff-poppins: 'Poppins', sans-serif;
+  --tp-ff-inter: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --tp-ff-poppins: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --tp-ff-playfair: 'Playfair Display', serif;
   --tp-ff-jakarta: 'Plus Jakarta Sans', sans-serif;
   --tp-ff-familjen: 'Familjen Grotesk', sans-serif;
   --tp-ff-morganite-bold: 'Morganite-Bold', sans-serif;
   --tp-ff-morganite-semibold: 'Morganite-SemiBold', sans-serif;
-  --tp-ff-clash-light: 'ClashDisplay-Light', serif;
-  --tp-ff-clash-regular: 'ClashDisplay-Regular', serif;
-  --tp-ff-clash-medium: 'ClashDisplay-Medium', serif;
-  --tp-ff-clash-semibold: 'ClashDisplay-Semibold', serif;
-  --tp-ff-clash-bold: 'ClashDisplay-Bold', serif;
+  --tp-ff-clash-light: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --tp-ff-clash-regular: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --tp-ff-clash-medium: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --tp-ff-clash-semibold: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --tp-ff-clash-bold: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --tp-ff-phudu: 'Phudu', serif;
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   /**
@@ -13763,7 +13763,7 @@ body.tp-magic-cursor #magic-cursor {
 /*  7.32 video css start
 /*----------------------------------------*/
 .tp-video-area {
-  background-image: url("../images/thumb_2.jpg");
+  background-image: url("../images/thumb_2.jpg?v=20260711");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
